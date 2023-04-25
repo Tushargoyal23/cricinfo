@@ -12,31 +12,31 @@ export default function photos(props) {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="sports.jpg" className="d-block w-100" alt="..." />
+                        <img src= {props.data ? props.data[0].urlToImage : "https://source.unsplash.com/random/300×300/?cricket"} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>{props.title}</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h3>{props.data ? props.data[0].title : "Todays Headlines"}</h3>
+                            <p>{props.data ? props.data[0].decription : "Cricket News: Given the responsibility to defend 15 runs in the final over of the match against Mumbai Indians at the Wankhede Stadium on Saturday, the Punjab Kings"}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="batting.jpg" className="d-block w-100" alt="..." />
+                        <img src= {props.data[1].urlToImage ? props.data[1].urlToImage : "https://source.unsplash.com/random/300×300/?cricket"} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h3>{props.data ? props.data[1].title : "Todays Headlines"}</h3>
+                            <p>{props.data ? props.data[1].decription : "Cricket News: Given the responsibility to defend 15 runs in the final over of the match against Mumbai Indians at the Wankhede Stadium on Saturday, the Punjab Kings"}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="batting.jpg" className="d-block w-100" alt="..." />
+                        <img src={props.data ? props.data[2].urlToImage : "https://source.unsplash.com/random/300×300/?cricket"} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>third slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h3>{props.data ? props.data[2].title : "Todays Headlines"}</h3>
+                            <p>{props.data ? props.data[2].decription : "Cricket News: Given the responsibility to defend 15 runs in the final over of the match against Mumbai Indians at the Wankhede Stadium on Saturday, the Punjab Kings"}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="batting.jpg" className="d-block w-100" alt="..." />
+                        <img src={props.data ? props.data[3].urlToImage : "https://source.unsplash.com/random/300×300/?cricket"} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>fourth slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h3>{props.data ? props.data[3].title : "Todays Headlines"}</h3>
+                            <p>{props.data ? props.data[3].decription : "Cricket News: Given the responsibility to defend 15 runs in the final over of the match against Mumbai Indians at the Wankhede Stadium on Saturday, the Punjab Kings"}</p>
                         </div>
                     </div>
                     
