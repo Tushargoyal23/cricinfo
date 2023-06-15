@@ -1,0 +1,21 @@
+body{
+    text-align: left;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA_FS0GS_rFE_AUoU-38oiLbUzMD6jIL6XKQ&usqp=CAU);
+    color: aliceblue;
+}
+#main{
+    background-color: rgb(44, 47, 46);
+    width: 400px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 37%;
+    border-color: azure;
+    border: solid;
+    border-radius: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#info{
+    color: azure;
+}

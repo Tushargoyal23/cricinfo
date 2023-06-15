@@ -1,3 +1,12 @@
+/* .ipl{
+    background-color: rgb(104, 106, 250);
+} */
+/* .ipl:hover{
+    background-color: rgb(18, 21, 206);
+} */
+/* .xyz:hover{
+    width:'20rem'
+} */
 #home{
-    background-color: blueviolet;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA_FS0GS_rFE_AUoU-38oiLbUzMD6jIL6XKQ&usqp=CAU);
 }

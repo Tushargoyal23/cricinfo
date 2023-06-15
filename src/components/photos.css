@@ -1,0 +1,9 @@
+#photos{
+    margin-top: 50px;
+    border-radius: 10%;
+}
+h3{
+    background-color: antiquewhite;
+    color:black;
+    opacity: 0.75;
+}
