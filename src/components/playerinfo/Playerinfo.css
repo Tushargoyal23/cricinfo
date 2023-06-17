@@ -1,0 +1,31 @@
+#info{
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148844576.jpg);
+}
+#details{
+    color: black;
+    /* position: absolute; */
+    text-align: left;
+}
+#prof{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#img{
+    margin-bottom: 50px;
+    border: solid;
+    border-color: black;
+    border-radius: 100%;
+    width: 35%;
+}
+#type{
+    color: black;
+}
+#table{
+    margin-left: 5% ;
+    margin-bottom: 10% ;
+    width: 90%;
+}
+/* #basic{
+    position: absolute;
+    text-align: left;
+} */

@@ -1,0 +1,35 @@
+.cont {
+    display: flex;
+}
+
+.photo img {
+    flex: 0 0 auto; /* Prevent the photo from growing */
+    max-height: 220px;
+    /* border:solid; */
+    margin-bottom: 10px;
+    border-radius: 100%;
+    /* border: hidden; */
+  }
+
+#profile{
+    /* background-color: aliceblue; */
+    /* border:solid; */
+    /* border-color: azure; */
+    color: black;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.name{
+    color: aliceblue;
+} 
+#profile :hover{
+    /* width: 0%; */
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.05);
+    /* background-color: rgb(231, 114, 114); */
+}

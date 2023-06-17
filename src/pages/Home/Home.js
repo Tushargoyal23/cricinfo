@@ -33,9 +33,9 @@ export default function Home() {
         </div>
         <Photos data={data.articles ? data.articles : null}></Photos>
         <Scores></Scores>
-        <div>
+        {/* <div>
           <Clubs></Clubs>
-        </div>
+        </div> */}
         <div class="">
           <Footer></Footer>
         </div>

@@ -1,0 +1,29 @@
+#players{
+    /* background-color: black; */
+    background-image: url(https://w0.peakpx.com/wallpaper/879/37/HD-wallpaper-black-stripes-abstract-other.jpg);
+    /* width: 800px; */
+}
+#intro{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the box */
+    align-items: center; /* Vertically center the box */
+    height: 100vh; /* Adjust the height as needed */
+  }
+#content{
+    background-color: rgb(64, 62, 62);
+    border: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+#search{
+    margin-left: 20%;
+    width: 60%;
+}

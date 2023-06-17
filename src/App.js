@@ -5,7 +5,8 @@ import Home from "./pages/Home/Home";
 import Matches from "./pages/Matches/Matches";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-import RCB from "./pages/RCB/RCB";
+import Playerinfo from "./components/playerinfo/Playerinfo";
+import Players from "./pages/Players/Players";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route path="/matches" element={<Matches></Matches>}></Route>
         <Route path="/createuser" element={<Signup></Signup>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
-        <Route path="/rcb" element={<RCB></RCB>}></Route>
+        <Route path="/players" element={<Players></Players>}></Route>
+        <Route path="/playersinfo/:id" element={<Playerinfo></Playerinfo>}></Route>
       </Routes>
     </BrowserRouter>
     </div>

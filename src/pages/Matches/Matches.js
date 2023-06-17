@@ -7,7 +7,7 @@ export default function Scores() {
     return (
         <div>
             <div className='margin-bottom: 100px'>
-        <Navbar></Navbar>
+        <Navbar title='CricInfo'></Navbar>
       </div>
              <div className="row gx-5">
                  <div className="col-md-3">
