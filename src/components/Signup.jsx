@@ -1,8 +1,9 @@
 import React from 'react'
 import './Signup.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 export default function Signup() {
+  let navigate = useNavigate();
   const[credentials , setcredentials] =useState({name:"" , email: "" , location: "" , password : ""});
   const handleSubmit = async(e) => {
     e.preventDefault();
@@ -19,6 +20,11 @@ export default function Signup() {
     if(json.success){
       alert("enter valid credentials")
     }
+    if(!json.success){
+      // localStorage.setItem("authToken" , json.authToken);
+      // console.log(localStorage.getItem("authToken"));
+      navigate('/login');
+    }
   }
   const Onchange = (event) =>{
       setcredentials({...credentials,[event.target.name]:event.target.value})
@@ -33,7 +39,7 @@ export default function Signup() {
   <div className="mb-3">
     <label htmlFor="exampleInputEmail1" className="form-label"><b>*Email address</b></label>
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name='email' value={credentials.email} onChange={Onchange}/>
-    <div id="info" className="form-text">We'll never share your email with anyone else.</div>
+    <div>*We'll never share your email with anyone else.</div>
   </div>
   <div className="mb-3">
     <label htmlFor="location" className="form-label"><b>*Country</b></label>

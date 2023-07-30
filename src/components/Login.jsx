@@ -20,6 +20,8 @@ export default function Login() {
         alert("enter valid credentials")
       }
       if(json.success){
+        localStorage.setItem("authToken" , json.authToken);
+        // console.log(localStorage.getItem("authToken"));
         navigate('/');
       }
     }
@@ -32,7 +34,7 @@ export default function Login() {
     <div className="mb-3">
       <label htmlFor="exampleInputEmail1" className="form-label"><b>*Email address</b></label>
       <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name='email' value={credentials.email} onChange={Onchange}/>
-      <div id="info" className="form-text">We'll never share your email with anyone else.</div>
+      <div>*We'll never share your email with anyone else.</div>
     </div>
     <div className="mb-3">
       <label htmlFor="exampleInputPassword1" className="form-label"><b>*Password</b></label>

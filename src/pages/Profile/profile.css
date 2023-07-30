@@ -1,0 +1,87 @@
+/* #profile{
+    background-color: rgb(120, 114, 114);
+} */
+#procss{
+    background-color: rgb(49, 48, 48);
+}
+#basicpro{
+    color:white;
+    background-color: rgb(88, 86, 86);
+    margin-top: 1%;
+    max-height: 70%;
+    margin-left: 2%;
+    max-width: 90%;
+    border-radius: 2%;
+}
+#procont{
+    width: 30%;
+    /* border:solid;
+    border-color: aliceblue; */
+}
+#propic{
+    margin-top: 1%;
+    width: 80%;
+    /* height: 10%; */
+    /* margin-top: 0%; */
+    margin-bottom: 1%;
+}
+#userdetails{
+    margin-top: 1%;
+}
+#logout{
+    margin-left: 90%;
+}
+.vertical-hr {
+    margin-top: 2%;
+    width: 1%;
+    margin-bottom: 2%;
+    border-left: 1px solid rgb(222, 227, 222);
+  height: 212px;
+}
+#dta{
+    margin-top: 2%;
+    width: 40%;
+    margin-left: 0%;
+}
+#cricketinfo{
+    margin-left: 10%;
+    font-size: large;
+    text-align: left;
+    line-height: 40px;
+}
+#norm{
+    width: 80%;
+    margin-right: 10px;
+}
+#perdet{
+    color:white;
+    background-color: rgb(88, 86, 86);
+    margin-top: 6.5%;
+    max-height: 70%;
+    margin-left: 15%;
+    max-width: 20%;
+    border-radius: 2%;
+}
+#otherdet{
+    margin-top: 6%;
+    width: 60%;
+    /* border: solid;
+    border-color: aliceblue; */
+}
+#headi{
+    margin-top: 2%;
+}
+#norms{
+    margin-right: 3%;
+}
+#foot{
+    margin-top: 5%;
+}
+#edit{
+    margin-top: 1%;
+    width: 90%;
+}
+#fan{
+    color: rgb(19, 20, 20);
+}
+  

@@ -1,3 +1,19 @@
 .Navbar{
     background-color: #4b4747;
 }
+#user{
+    display: flex;
+  align-items: center;
+  /* margin-left: auto; */
+}
+.separator {
+    margin: 0 10px;
+    color: #999;
+}
+#icon{
+    max-width: 5%;
+    border: white;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 70%;
+}

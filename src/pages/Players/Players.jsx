@@ -59,7 +59,7 @@ export default function Players() {
                             <Profilecard title='Virat Kohli' imgurl='https://www.mykhel.com/thumb/220x100x220/cricket/players/8/3788.1666934063.jpg' id ={'c61d247d-7f77-452c-b495-2813a9cd0ac4'}></Profilecard>
                         </div>
                         <div className=' col-md-4'>
-                            <Profilecard title='Steve Smith' imgurl='https://i.guim.co.uk/img/media/1059b0efc3c2dd88ff36f911575f89c250d48afc/226_456_1394_836/master/1394.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ce047a0586d70fb1a62bc3cb6eb4321d' id ={'96e1bad9-ac08-47c3-aba8-2c90d34fc09e'}></Profilecard>
+                            <Profilecard title='Virender Sehwag' imgurl='https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/319900/319953.png' id ={'e20a6a1d-4ad7-478b-aff8-bf6c6b0ea67f'}></Profilecard>
                         </div>
                         <div className=' col-md-4'>
                             <Profilecard title='Ab de villiers' imgurl='https://www.bigbash.com.au/-/media/Players/Men/International/South%20Africa/AB-de-Villiers-CT17.ashx' id={'230b275d-0216-4594-b4e8-f73c9c12e12b'}></Profilecard>
@@ -77,7 +77,7 @@ export default function Players() {
                             <Profilecard title='Rohit Sharma' imgurl='https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1660993978762.jpg-org' id={'03bda674-3916-4d64-952e-00a6c19c01e1'}></Profilecard>
                         </div>
                         <div className=' col-md-4'>
-                            <Profilecard title='Babar Azam' imgurl='https://www.mykhel.com/thumb/247x100x233/cricket/players/1/5601.jpg' id={'4ffc5d94-5a5f-4489-a09f-60e22090c810'}></Profilecard>
+                            <Profilecard title='Sachin Tendulkar' imgurl='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sachin-Tendulkar_%28cropped%29.jpg/220px-Sachin-Tendulkar_%28cropped%29.jpg' id={'64ab5424-779f-44ad-8135-21097f6eb83c'}></Profilecard>
                         </div>
                         <div className=' col-md-4'>
                             <Profilecard title='Quinton de Kock' imgurl='https://www.mykhel.com/thumb/247x100x233/cricket/players/8/5648.jpg' id={'000f9f7c-cc24-4a85-8638-b013b0f4760e'}></Profilecard>

@@ -1,0 +1,26 @@
+#editpro{
+    background-color: rgb(54, 52, 52);
+}
+#content{
+    margin-top: 5%;
+    border-radius: 3%;
+    max-width: 80%;
+    margin-left: 10%;
+}
+#form1{
+    margin-top: 2%;
+    max-width: 60%;
+}
+#foh{
+    max-width: 60%;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+#sub{
+    margin-top: 2% ;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#cancel{
+    margin-left: 5%;
+}

@@ -9,16 +9,17 @@ const mongoDB = async () => {
       // checking for data 
       // yaha per bhi try catch lagana padega or await bhi also hum fetched_data add kerte hi data me badal denge taki recalling ke time error na aye
       // bakki chat gpt se kiya hai
-    // mongoose.connection.once('open', async () => {
-    //     try {
-    //       const fetched_data = await mongoose.connection.db.collection("admin").find({}).toArray();
-    //     //   console.log(fetched_data);
-    //       process.exit(); // Exiting the process after fetching data
-    //     } catch (error) {
-    //       console.log(error);
-    //       process.exit();
-    //     }
-    //   });
+    mongoose.connection.once('open', async () => {
+        try {
+          const fetched_data = await mongoose.connection.db.collection("users").find({}).toArray();
+          global.userDetails = fetched_data;
+          // console.log(userDetails)
+          // process.exit(); // Exiting the process after fetching data
+        } catch (error) {
+          console.log(error);
+          process.exit();
+        }
+      });
     } catch (error) {
       console.log(error);
       process.exit()
